@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="ttps://sayidahadi.github.io/">
-    <img src="images/bawah.png" alt="Logo" width="120" height="120">
+    <img src="images/bawah.png" alt="Logo" width="200" height="250">
   </a>
 
   <h1 align="center">The Wedding</h1>
