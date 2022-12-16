@@ -406,7 +406,7 @@ figure {
   #fh5co-counter,
   #fh5co-event {
     height: inherit;
-    padding: 7em 0;
+    padding: 3em 0;
   }
   #fh5co-counter .display-t,
   #fh5co-counter .display-tc,
@@ -1137,7 +1137,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
