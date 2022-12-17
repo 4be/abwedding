@@ -17,12 +17,8 @@
   <p align="center">
     <strong>Sayidah & Adi</strong>
     <br />
-    <a href="https://sayidahadi.github.io/">Explore the Invitation ! »</a>
+    <a href="https://the-wedding-of-sayidah-adi.github.io/app/">Explore the Invitation ! »</a>
     <br />
-    <br />
-    <a href>Sayidah Nurmaida </a>
-    ·
-    <a href>Adi Ab</a>
   </p>
 </div>
 
