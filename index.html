@@ -870,7 +870,7 @@
 		download : false,
 		// Append caption inside the slide item
 		// to apply some animation for the captions (Optional)
-		appendSubHtmlTo: '.lg-item',
+		// appendSubHtmlTo: '.lg-item',
 		// Delay slide transition to complete captions animations
 		// before navigating to different slides (Optional)
 		// You can find caption animation demo on the captions demo page
@@ -879,19 +879,19 @@
 			{
 				src: 'images/gallery/qriesgopay.jpeg',
 				thumb: 'images/gallery/qriesgopay.jpeg',
+				subHtml: `<div class="lightGallery-captions">
+					<h4>Caption 1</h4>
+					<p>Description of the slide 1</p>
+				</div>`,
+			},
+			{
+				src: 'images/gallery/tesbg.jpeg',
+				thumb: 'images/gallery/tesbg.jpeg',
 				/*subHtml: `<div class="lightGallery-captions">
 					<h4>Caption 1</h4>
 					<p>Description of the slide 1</p>
 				</div>`,*/
 			},
-			// {
-			// 	src: 'images/gallery/tesbg.jpeg',
-			// 	thumb: 'images/gallery/tesbg.jpeg',
-			// 	/*subHtml: `<div class="lightGallery-captions">
-			// 		<h4>Caption 1</h4>
-			// 		<p>Description of the slide 1</p>
-			// 	</div>`,*/
-			// },
 		],
 	});
 
