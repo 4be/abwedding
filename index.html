@@ -852,9 +852,24 @@
 		else
 			window.open("https://goo.gl/maps/KWGADbRyo5466fT86");
 	}
+
+
 </script>
 
 <script type="text/javascript">
+
+	// function copyToClipboard(element) {
+  	// var $temp = $("<input>");
+  	// $("body").append($temp);
+	// if($temp.val($(element).text()).select()){
+	// 	document.execCommand("copy");
+  	// 	$temp.remove();
+	//     alert("Copied the text");
+	// }
+
+	// }
+
+
 	const lgContainer = document.getElementById('inline-gallery-container');
 	const inlineGallery = lightGallery(lgContainer, {
 		container: lgContainer,
@@ -867,29 +882,35 @@
 		closable: false,
 		// Add maximize icon to enlarge the gallery
 		showMaximizeIcon: true,
-		download : false,
+		autoplay:true,
+		download : true,
+		speed: 500,
+  	    mode: 'lg-fade',
 		// Append caption inside the slide item
 		// to apply some animation for the captions (Optional)
 		// appendSubHtmlTo: '.lg-item',
 		// Delay slide transition to complete captions animations
 		// before navigating to different slides (Optional)
 		// You can find caption animation demo on the captions demo page
-		slideDelay: 400,
+		slideDelay: 100,
 		dynamicEl: [
+			{
+				// <p id="p1">10239121 a/n sayidah nurmaida</p>
+				// <button class="buttontf" onclick="copyToClipboard('#p1')">10239121 a/n sayidah nurmaida</button>
+				src: 'images/gallery/Qris.jpg',
+				thumb: 'images/gallery/Qris.jpg',
+				subHtml: `
+				<div class="lightGallery-captions">
+					<h4>Qris</h4>
+					<h4>a/n Toko Seo</h4>
+				</div>`,
+			},
 			{
 				src: 'images/gallery/qriesgopay.jpeg',
 				thumb: 'images/gallery/qriesgopay.jpeg',
 				subHtml: `<div class="lightGallery-captions">
-					<h4>Scan Gopay 1</h4>
-					<h4>Description of the slide 1</h4>
-				</div>`,
-			},
-			{
-				src: 'images/gallery/Qris.jpg',
-				thumb: 'images/gallery/Qris.jpg',
-				subHtml: `<div class="lightGallery-captions">
-					<h4>Qris</h4>
-					<h4>a/n Toko Seo</h4>
+					<h4>Gopay</h4>
+					<h4>a/n Adi Ab</h4>
 				</div>`,
 			},
 			{
